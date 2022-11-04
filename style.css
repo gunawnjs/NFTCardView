@@ -29,6 +29,7 @@ p{
 }
 hr{
 	border: solid var(--primary-color-dark) 0.5px;
+	margin: 12px 0;
 }
 body{
 	background-color: var(--primary-color-darkest);
@@ -95,13 +96,15 @@ body{
 	font-weight: 600;
 }
 .user-info-wrapper img{
+	border: solid var(--neutral-color) 1px;
+	border-radius: 50%;
 	width: 30px;
-	padding-right: 0.5rem;
+	margin-right: 0.5rem;
 }
 .user-info-wrapper{
 	display: flex;
 	align-items: center;
-	padding: 1.5rem 0;
+	padding: 6px 0;
 
 }
 .user{
